@@ -1,0 +1,7 @@
+[
+  {"name":"小米手机","price":1999,"os":"android","quantity":2,"date":"2016-05-03","imgsrc":"TB1_50x50.jpg"},
+  {"name":"华为手机","price":3999,"os":"android","quantity":1,"date":"2016-05-03","imgsrc":"TB2_50x50.jpg"},
+  {"name":"苹果手机","price":4999,"os":"ios","quantity":1,"date":"2016-05-03","imgsrc":"TB3_50x50.jpg"},
+  {"name":"三星手机","price":999,"os":"android","quantity":3,"date":"2016-05-03","imgsrc":"TB4_50x50.jpg"},
+  {"name":"vivo手机","price":2999,"os":"android","quantity":2,"date":"2016-05-03","imgsrc":"TB1_50x50.jpg"}
+]

@@ -1,0 +1,11 @@
+<div class="panel">
+    <div class="panel-heading">商品列表页</div>
+    <div class="panel-body">
+        <div ng-repeat="product in products" class="pull-left ">
+            <div><img ng-src="images/{{product.imgsrc}}"/></div>
+            <div>{{product.name}}</div>
+            <div>{{product.price | currency:"￥"}}</div>
+            <div><a href="#/detail?name={{product.name}}">查看详情</a></div>
+        </div>
+    </div>
+</div>

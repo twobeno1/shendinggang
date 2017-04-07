@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        ul{list-style: none;margin:0;padding:0;}
+        header{background:#2e6da4;}
+        main{background: #ededed;}
+        footer{background: #ededed;position:relative;}
+        header a{color:#fff;}
+        header a:hover{text-decoration: none}
+        header a:focus{text-decoration: none}
+        .row_header{margin-top:20px}
+        .pic{position:relative;}
+        .pic img{width:100%;}
+        .pic1 img{width:100%}
+        .pic .one{position:absolute;top:-90px;left:-20px;width:120%;  animation:light 3s infinite;}
+        .pic .two{position:absolute;top:65px;left:-10px;animation:light 3s infinite;}
+        @keyframes light{
+            0%{width:100%}
+            50%{transform: translate(0,10px);}
+            100%{width:100%}
+        }
+        .row_center{padding-top:100px;}
+        .row_center h2{padding-top:75px;color:#fff;}
+        .row_center h3{color:#fff;}
+        .row_center h4{color:#fff;text-align: center;}
+        .row_center h5{color:#fff;text-align: center;}
+        .row_center p{color:#fff;padding-top:75px;}
+        .row_center a{color:#4cae4c;}
+        .center_btn{position:absolute;left:100px;top:300px;padding:15px 30px;}
+        .container>h3{color:#fff;text-align: center;margin-top:80px;position:relative;padding-bottom:100px;}
+        .text_border:before{content:'';width:200px;height:4px;background:#4cae4c;position:absolute;left:40%;top:70px;}
+        .centerMain{font-size:36px;color:#4cae4c;font-weight:normal;}
+        .centerMain .centerMain_left{margin-top:50px;}
+        .centerMain .centerMain_text{font-size:20px;color:#000;}
+        .centerMain .pic1{position:relative;left:0;top:-50px;}
+        .yourweek{margin-left:100px;}
+        .report{margin-top:50px;}
+        .holdiay{margin-top:50px;margin-left:100px;}
+        .centerChoose{background: #fff;padding-top:30px;margin-top:30px;padding-bottom: 30px;}
+        .centerText{font-size:32px;color:#4cae4c;font-weight:normal;text-align: center;}
+        .centerText_text{font-size:20px;color:#000;text-align: center;}
+        .chooseBtn{padding:15px 30px;margin:10px;position:relative;left:40%;top:0}
+        .small_text{font-size:14px;text-align: center;}
+        footer:before{content:'';width:100%;height:1px;  background: #b8b8b8;position:absolute;left:0;top:0;}
+        .footer_left{padding-top:10px;}
+        .footer_left li{float:left;margin-right:10px;}
+        .footer_text{padding-top:20px;}
+        .footer_content{padding-right:75px;padding-bottom:75px;}
+        .footer_content:before{content:'';width:1px;height:111%;background:#b8b8b8;position:absolute;left:100%;top:-19px;}
+        .footer_right{margin-top:50px;}
+        .right_text{margin-top:20px;}
+        @media screen and (max-width:1200px){
+            .center_btn{position:absolute;left:22%;top:66%;padding:15px 30px;}
+        }
+        @media screen and (max-width:992px){
+            .center_btn{position:absolute;left:16%;top:66%;padding:10px 20px;}
+            .row_center h4,.row_center h5{color:#fff;margin-top:20px;}
+        }
+        @media screen and (max-width:768px){
+            .center_btn{position:absolute;left:24%;top:73%;padding:27px 80px;font-size:23px;}
+            .row_center{text-align:center;}
+            .row_center h2{margin-bottom:20px;padding-top:0;}
+            .row_center h3{margin-top:0;margin-bottom:100px;}
+            .row_center p{font-size:20px;color:#fff;}
+            .row_center a{font-size:20px;}
+            .row_center h4,.row_center h5{color:#fff;margin-top:20px;}
+            .pic img{width:66%}
+            .pic .two{position:absolute;top:-55px;left:-10px;}
+            .pic1 img{width:155%;}
+            .pic2 img{margin-left:-260px;}
+        }
+        @media screen and (max-width:640px){
+            .center_btn{position:absolute;left:22%;top:66%;padding:27px 80px;font-size:23px;}
+            .chooseBtn{position:relative;left:33%;top:0;}
+        }
+        @media screen and (max-width: 480px){
+            .center_btn{position:absolute;left:22%;top:66%;padding:15px 30px;font-size:23px;}
+        }
+    </style>
+</head>
+<body>
+<header>
+<div class="container">
+    <div class="row row_header">
+        <div class="logo col-xs-2"><img src="images/timepot-logo.png"></div>
+        <div class="nav_right col-xs-4 col-xs-offset-4">
+            <div class="row">
+                <div class="col-xs-4"><a href="#"> Sign up</a></div>
+                <div class="col-xs-4"><a href="#">Log in</a></div>
+                <div class="col-xs-4"><a href="#">Blog</a></div>
+            </div>
+        </div>
+        <div class="btn btn-default col-xs-2">VIEW DEMO</div>
+    </div>
+    <div class="row row_center">
+        <div class="col-sm-4">
+           <h2>Time Tracking,</br>
+               Simplified.</h2>
+            <h3>Take control of your time</h3>
+        </div>
+        <div class="col-sm-4">
+            <div class="pic"><img class="one" src="images/parts.svg"><img class="two" src="images/papers.svg"><img src="images/character.svg"></div>
+            <button class="btn btn-success center_btn">Create Your Timepot</button>
+            <h4>Start your 30 day Free Trial </h4>
+            <h5>No credit card required</h5>
+        </div>
+        <div class="col-sm-4">
+            <p>Timepot makes time tracking a breeze,
+                whether you are a large company or a small team. It gives you full control over billable hours.</p>
+            <a href="#">Try demo version</a>
+        </div>
+    </div>
+    <h3 class="text_border">You're going to love Timepot</h3>
+</div>
+</header>
+<main>
+<div class="container">
+    <div class="row centerMain yourweek">
+        <div class="col-xs-4 centerMain_left">
+            <span class="glyphicon glyphicon-time"></span>
+            <h3>Your Week</h3>
+            <p class="centerMain_text">Log your time in a user
+                friendly calendar.
+                Have all your tasks
+                and hours available at a glance</p>
+        </div>
+        <div class="col-xs-8">
+            <div class="pic1"><img src="images/features-mockup-yourweek.png"></div>
+        </div>
+    </div>
+    <div class="row centerMain report">
+        <div class="col-xs-8">
+            <div class="pic1 pic2"><img src="images/features-mockup-reports.png"></div>
+        </div>
+        <div class="col-xs-4 centerMain_left">
+            <span class="glyphicon glyphicon-signal"></span>
+            <h3>Powerful Reports</h3>
+            <p class="centerMain_text">Create robust reports
+                to know how your team spends their time. Measure productivity.
+                Search, browse and filter your data.</p>
+        </div>
+    </div>
+    <div class="row centerMain holdiay ">
+        <div class="col-xs-4 centerMain_left">
+            <span class="glyphicon glyphicon-plane"></span>
+            <h3>Holidays</h3>
+            <p class="centerMain_text">Mark trips and days off.
+                Let others know when you’re
+                out of the office.
+                Let the system automatically count your employees’ days off.</p>
+        </div>
+        <div class="col-xs-8">
+            <div class="pic1"><img src="images/features-mockup-holidays.png"></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row centerMain">
+        <div class="col-lg-3">
+            <span class="glyphicon glyphicon-folder-close"></span>
+            <h3>Projects</h3>
+            <p class="centerMain_text">See the complete list of projects your team is currently working on. Check the time spent on each one. Get and access the history of work, project by project.</p>
+        </div>
+        <div class="col-lg-3">
+            <span class="glyphicon glyphicon-file"></span>
+            <h3>Tasks</h3>
+            <p class="centerMain_text">Monitor each task within all of your projects. Get a daily summary of working hours. Browse smoothly through the task history.</p>
+        </div>
+        <div class="col-lg-3">
+            <span class="glyphicon glyphicon-user"></span>
+            <h3>Users</h3>
+            <p class="centerMain_text">See all users on one
+                well-organised list.
+                Invite an unlimited
+                number of new users.</p>
+        </div>
+        <div class="col-lg-3">
+            <span class="glyphicon glyphicon-user"></span>
+            <h3>Employee's Week</h3>
+            <p class="centerMain_text">Monitor your employees’ timetable. See how they spend their time at work and help them plan their work.</p>
+        </div>
+    </div>
+</div>
+<div class="container centerMain centerChoose">
+    <h4 class="centerText">Start your 30 day Free Trial</h4>
+    <p class="centerText_text">Following that period, continue to access all Timepot features<br>
+        for only $4/user* per month.</p>
+    <button class="btn btn-success chooseBtn">Create your Timepot</button>
+    <p class="help-block small_text">* tax may apply</p>
+</div>
+</main>
+<footer>
+    <div class="container footer_text">
+        <div class="col-sm-4 footer_content">
+            <h4>Timepot</h4>
+            <p>A user-friendly time tracking software. Simplifies logging billable hours and provides powerful reports for clients. </p>
+            <ul class="footer_left">
+                <li><a href="#"><img src="images/icon-facebook.svg"> </a></li>
+                <li><a href="#"><img src="images/icon-twitter.svg"> </a></li>
+                <li><a href="#"><img src="images/icon-mail.svg"> </a></li>
+            </ul>
+        </div>
+        <div class="col-sm-8 footer_right">
+            <div class="row">
+                <div class="col-xs-3">
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-sm-offset-3 right_text">© Timepot 2017</div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

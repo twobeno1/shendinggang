@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;}
+        ul{list-style:none;}
+        .top{background:#1f262e;}
+        .top a,.top span{font-size:12px;color: #a9afb4;}
+        .top span{margin-right:3px;}
+        ul li{float:left;margin-right:10px;}
+        ul li a{color: #c4c5c7;font-size:12px;}
+        .top_content{padding-top:10px;padding-bottom: 10px;}
+        header{background:#282f37;}
+        .nav_right{line-height:82px;}
+        .nav_right a{font-size:13px;color:#fff;}
+        .search{line-height:82px;position:relative;}
+        .search:before{content:'';width:1px;height:60%;position:absolute;left:0;top:16px;background:#6e6f71}
+        .search a{color:#6e6f71;}
+        .banner{background:#f14949;padding-top:40px;padding-bottom:20px;}
+        .banner h2{color:#fff;font-size: 50px;margin-top:70px;margin-bottom:20px;}
+        .banner p{color:#fff;font-size:20px;line-height:24px;}
+        .main_first h2{text-align: center;color:#fb4449;font-size:32px;line-height:102px;}
+        .main_first p{text-align: center;font-size:14px;line-height:24px;}
+        .main_first ul{margin:0;}
+        .main_first ul li{border:1px solid #f14949;padding:5px 13px;float:left;margin:0;}
+        .main_first ul li:first-child{border-top-left-radius:4px;border-bottom-left-radius:4px; }
+        .main_first ul li:last-child{border-top-right-radius:4px;border-bottom-right-radius:4px;}
+        .main_first ul li a{font-size:23px;color:#000;}
+        .main_first .text{font-size:23px;}
+        .main_first .one{background:#f14949;}
+        .main_first .one a{color:#fff;}
+        .first_content{background: #ebebeb;width:259px;margin-right:33px;text-align:center;}
+        .first_content .pic2 img{margin-left:-11px;margin-top:5px;}
+        .main_list{margin-top:48px;margin-bottom:108px;}
+        .pic3{background: #646464 url("images/图层%20110.jpg")no-repeat top center/cover;height:372px;background-blend-mode: multiply;}
+        .pic3 h2{color:#fff;text-align: center;font-size:50px;line-height:72px;margin-top:64px;}
+        .pic3 p{color:#fff;text-align:center;line-height:25px;}
+        .my_button{background:none;color:#fff;border:1px solid #fff;line-height:63px;padding:0 47px;font-size:30px;font-weight:normal;margin-left:38%;margin-top:20px;}
+        .twice_content img{float:left;margin-top:20px;}
+        .twice_content h3{margin-left:70px;color:#f14949;}
+        .twice_content p{margin-left:70px;}
+        .main_twice{margin-top:100px;}
+        .pic4{float:left;}
+        .main_third h5{line-height:25px;font-size: 16px;margin-left:166px;}
+        .main_third p{color:#d3d3d3;margin-left:166px;}
+        .third_right{margin-top:45px;}
+        .right_button{margin-bottom:15px;}
+        .special{margin-top:45px;background:#f14949;color:#fff;}
+        .pic5{background:#f14949;height:520px;margin-top:75px;}
+        .pic5 h2{text-align: center;color:#fff;}
+        .pic5 p{text-align: center;color:#fff;}
+        .pic5 span{text-align: center;color:#fff;font-size:30px;margin-left:45px;}
+        .pic5 img{margin-bottom:20px;margin-top:40px;width:100%}
+        footer{background:#282f37;text-align: center;height:322px;}
+        footer img{margin-top:80px;}
+        footer p{color:#fff;margin-top:55px;}
+        @media screen and (max-width:1200px){
+            .first_content{margin-right:210px;margin-bottom:50px;}
+            .main_first ul li a{font-size:17px;}
+            .main_first .text{font-size:18px;}
+        }
+        @media screen and (max-width:992px){
+            .main_first ul li a{font-size:11px;}
+            .main_first .text{font-size:18px;}
+            .pic5 span{font-size:21px}
+            .third_right{margin-bottom:84px;}
+        }
+        @media screen and (max-width:768px){
+            .third_right{margin-bottom:100px;}
+            .person{float:left;}
+        }
+        @media screen and (max-width: 640px){
+            .main_first ul li a{font-size:11px;padding:5px 5px}
+            .pic5 span{font-size:15px}
+        }
+
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="container top_content">
+    <div class="col-md-2"><span class="glyphicon glyphicon-time"></span><a>Sunday,February 16,2014</a></div>
+    <div class="col-md-2"><span class="glyphicon glyphicon-phone"></span><a>1234 678 0000</a></div>
+    <div class="col-md-2"><span class="glyphicon glyphicon-time"></span><a>yourmail@gmail.com</a></div>
+    <div class="col-md-2 col-md-offset-4">
+        <ul>
+            <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<header>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"><div class="pic"><img src="images/logo.png"></div></div>
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="row nav_right">
+                        <div class="col-md-2"><a href="#">Home</a></div>
+                        <div class="col-md-2"><a href="#">About</a></div>
+                        <div class="col-md-2"><a href="#">Portfolios</a></div>
+                        <div class="col-md-2"><a href="#">Features</a></div>
+                        <div class="col-md-2"><a href="#">Our Products</a></div>
+                        <div class="col-md-2"><a href="#">Contact Us</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-2 search"><a href="#"><i class="fa fa-search"></i></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<div class="banner">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6"><div class="pic"><img src="images/img.png"></div></div>
+        <div class="col-lg-6">
+            <h2>An Amazing Responsive
+                wordpress theme</h2>
+            <p>Lorem ipsum ex vix illud nonummy
+                novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container main_first">
+    <h2>Some Amazing Features</h2>
+    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at.Cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet erorem ipsum dolor sit amet consectetuer adipiscing elit. Mauris fermentum dictum magna.</p>
+    <div class="row">
+        <div class="col-xs-2 text">Recent Portfolio</div>
+        <div class="col-xs-5 col-xs-offset-5">
+            <ul>
+                <li class="one"><a href="#">All</a></li>
+                <li><a href="#">Category1</a></li>
+                <li><a href="#">Category2</a></li>
+                <li><a href="#">Category3</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row main_list">
+        <div class="col-xs-3 first_content">
+            <div class="pic2"><img src="images/图层%20116.png"></div>
+            <h4>Responsive Design</h4>
+            <p>Quisque euismod orci ut et ..</p>
+        </div>
+        <div class="col-xs-3 first_content">
+            <div class="pic2"><img src="images/图层%20113.png"></div>
+            <h4>Responsive Design</h4>
+            <p>Quisque euismod orci ut et ..</p>
+        </div>
+        <div class="col-xs-3 first_content">
+            <div class="pic2"><img src="images/图层%20115.png"></div>
+            <h4>Responsive Design</h4>
+            <p>Quisque euismod orci ut et ..</p>
+        </div>
+        <div class="col-xs-3 first_content">
+            <div class="pic2"><img src="images/图层%20114.png"></div>
+            <h4>Responsive Design</h4>
+            <p>Quisque euismod orci ut et ..</p>
+        </div>
+    </div>
+</div>
+<div class="pic3">
+    <div class="container">
+        <h2>Welcome to our website!</h2>
+        <p>We're experts in this field and we strive to provide high-quality web design, custom development and maintenance. Our goal is to provide unique design, powerful and practical functions, easy operation and user-friendly interface.
+        </p>
+        <button class="btn my_button">Purchase Now</button>
+    </div>
+</div>
+<div class="container main_twice">
+    <div class="col-sm-4 twice_content">
+        <img src="images/index_45.jpg">
+        <h3>Full responsive</h3>
+        <p>Lorem ipsum dolor sit amet Praesent vestibulum molestie lacus. Cum sociis natoque penatibus et magnis dis</p>
+    </div>
+    <div class="col-sm-4 twice_content">
+        <div><img src="images/index_47.jpg"></div>
+        <h3>Code With Love</h3>
+        <p>Lorem ipsum dolor sit amet Praesent vestibulum molestie lacus. Cum sociis natoque penatibus et magnis dis</p>
+    </div>
+    <div class="col-sm-4 twice_content">
+        <div><img src="images/index_50.jpg"></div>
+        <h3>Full responsive</h3>
+        <p>Lorem ipsum dolor sit amet Praesent vestibulum molestie lacus. Cum sociis natoque penatibus et magnis dis</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <h4>Lasted News</h4>
+            <div class="row main_third">
+                <div class="col-md-6 third_right">
+                    <div class="pic4"><img src="images/图层%20121.png"></div>
+                    <h5>Hello World!This is My First Post</h5>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+
+                </div>
+                <div class="col-md-6 third_right">
+                    <div class="pic4"><img src="images/图层%20122.png"></div>
+                    <h5>Hello World!This is My First Post</h5>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
+                <div class="col-md-6 third_right">
+                    <div class="pic4"><img src="images/图层%20123.png"></div>
+                    <h5>Hello World!This is My First Post</h5>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
+                <div class="col-md-6 third_right">
+                    <div class="pic4"><img src="images/图层%20124.png"></div>
+                    <h5>Hello World!This is My First Post</h5>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
+            </div>
+
+            </div>
+        <div class="col-sm-4">
+            <h4>Our Service</h4>
+            <button class="btn right_button special">MANAGEMENT CONSULTING</button>
+            <P>Lorem ipsum ex vix illud nonummy
+                novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.Lorem ipsum ex vix illud nonummy
+                novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</P>
+            <button class="btn right_button">MANAGEMENT CONSULTING</button>
+            <button class="btn right_button">MANAGEMENT CONSULTING</button>
+        </div>
+    </div>
+</div>
+<div class="pic5">
+    <div class="container">
+        <h2>Our Team</h2>
+        <p>Lorem ipsum ex vix illud nonummy
+            novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="person"><img class="img-circle" src="images/图层%20117.png"></div>
+                <span>Frankie</span>
+            </div>
+            <div class="col-xs-3">
+                <div class="person"><img class="img-circle" src="images/图层%20118.png"></div>
+                <span>Elia Erica</span>
+            </div>
+            <div class="col-xs-3">
+                <div class="person"><img class="img-circle" src="images/图层%20119.png"></div>
+                <span>Brown Jone</span>
+            </div>
+            <div class="col-xs-3">
+                <div class="person"><img class="img-circle" src="images/图层%20120.png"></div>
+                <span>Marh Die</span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <img src="images/logo.png">
+        <p>COPYRIGHT 2012 By AWESOME<br>Lorem ipsum dolor sit amet Praesent vestibulum molestie lacus. Cum sociis natoque penatibus et magnis dis</p>
+    </div>
+</footer>
+</body>
+</html>
